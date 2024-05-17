@@ -53,7 +53,7 @@ such as sales leads and marketing managers to make key business decisions. Below
 Below are the images of the dashboards created for this project, arranged in a 2x2 format.
 
 ### Dashboard 1
-![Dashboard 1](path/to/dashboard1.png)
+![Dashboard 1](DashboardImages/Dashboard1.png)
 
 ### Dashboard 2
 ![Dashboard 2](path/to/dashboard2.png)
