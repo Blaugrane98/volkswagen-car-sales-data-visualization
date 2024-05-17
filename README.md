@@ -10,19 +10,19 @@ The dataset provides useful information about Volkswagen automotive sales and ad
 
 The Online Automotive Sales Statistics'23 (Volkswagen) dataset includes 7216 records (rows) and 13 attributes (columns).
 Attributes with what they mean, their Data types and Domain values:
-1.	Customer ID - Ordinal, Domain - Integer [0 - 7216] : A unique identifying number assigned to the person who is advertising. 
-2.	Advertisement number - Categorical, Domain - Integer : Unique identification for the AD
-3.	Brand - Categorical, Domain - String : Brand name of the car.
-4.	Model - Categorical, Domain - String : Model name of the car. 
-5.	Variant - Categorical, Domain - String : Version of the car. 
-6.	Year - Interval, Domain - Date type : Year when the car was developed and ready for use. 
-7.	Kilometer - Categorical, Domain - Integer : Gives information about the mileage of the car in kilometers.
-8.	Color - Categorical, Domain - String : Specifies the car color.
-9.	Transmission - Categorical, Domain - String [Automatic, Manual] : The transmission type of the car.
-10.	 Fuel - Categorical, Domain - String [Diesel, Gas, Gasoline] : Specifies the type of fuel the car uses to run on. 
-11.	 City - Categorical, Domain - String : Specifies the city where the car was sold. 
-12.	 AD Date - Interval, Domain - Date Type : Date information of the ad release. 
-13.	 Price - Ordinal, Domain - Integer : Price of the car.
+1.	**Customer ID -** Ordinal, Domain - Integer [0 - 7216] : A unique identifying number assigned to the person who is advertising. 
+2.	**Advertisement number -** Categorical, Domain - Integer : Unique identification for the AD
+3.	**Brand -** Categorical, Domain - String : Brand name of the car.
+4.	**Model -** Categorical, Domain - String : Model name of the car. 
+5.	**Variant -** Categorical, Domain - String : Version of the car. 
+6.	**Year -** Interval, Domain - Date type : Year when the car was developed and ready for use. 
+7.	**Kilometer -** Categorical, Domain - Integer : Gives information about the mileage of the car in kilometers.
+8.	**Color -** Categorical, Domain - String : Specifies the car color.
+9.	**Transmission -** Categorical, Domain - String [Automatic, Manual] : The transmission type of the car.
+10.	 **Fuel -** Categorical, Domain - String [Diesel, Gas, Gasoline] : Specifies the type of fuel the car uses to run on. 
+11.	 **City -** Categorical, Domain - String : Specifies the city where the car was sold. 
+12.	 **AD Date -** Interval, Domain - Date Type : Date information of the ad release. 
+13.	 **Price -** Ordinal, Domain - Integer : Price of the car.
 
 ## Data Preprocessing
 I performed the following data pre-processing steps on the different attributes to make the dataset ready to be used in the visualizations:
@@ -50,28 +50,34 @@ such as sales leads and marketing managers to make key business decisions. Below
 17.   Which transmission modes are the most popular in each city?
 
 ## Images of the Dashboards
-Below are the images of the dashboards created for this project, arranged in a 2x2 format.
+Below are the images of the dashboards created for this project.
 
 ### Dashboard 1
 ![Dashboard 1](DashboardImages/Dashboard1.png)
 
 ### Dashboard 2
-![Dashboard 2](path/to/dashboard2.png)
+![Dashboard 2](DashboardImages/Dashboard2.png)
 
 ### Dashboard 3
-![Dashboard 3](path/to/dashboard3.png)
+![Dashboard 3](DashboardImages/Dashboard3.png)
 
 ### Dashboard 4
-![Dashboard 4](path/to/dashboard4.png)
+![Dashboard 4](DashboardImages/Dashboard4.png)
 
 ## User Interactivity
-Describe the interactive features of your dashboards. Explain how users can interact with the visualizations, such as filtering data, hovering for more information, or drilling down into specific details.
+I have implemented various interactive controls that aid the user in better understanding the visualizations and are connected to various visualizations as required. Below is the list of interactive controls I have implemented -
+●	**Select Car Model –** This is a dropdown list that is used to specify the model of the car wherever required.
+●	**Select Model Variant –** This is a dropdown list that is used to specify the variant of a particular car model wherever required.
+●	**Select City –** This is a dropdown list that is used to specify the city where the car was purchased wherever required.
+●	**Top-N Car Variants –** This is a slider provided for the user to specify the number of most popular variants of a particular car model that should be displayed as required.
+●	**Top-N Popular Models in Cities –** This is a slider provided for the user to specify the number of most popular car models that should be displayed as required.
+●	**User Input Amount for Cars Purchased –** This is a ‘Type-In’ input parameter created to allow the user to specify a particular number of cars purchased in a city.
 
 ## Links
-- [Dataset](URL-to-dataset)
-- [Mural Flowchart](URL-to-Mural-flowchart)
+- [Dataset](https://www.kaggle.com/datasets/bimervos/online-automotive-sales-statistics-volkswagen)
+- [Mural Flowchart](https://app.mural.co/t/dvassignment0284/m/dvassignment0284/1699563981327/42f506657e2cd9915e45641bf72383a216df88c2?sender=ua05eef829bc2a8f507a20491)
 - Dashboards:
-  - [Dashboard 1](URL-to-dashboard1)
-  - [Dashboard 2](URL-to-dashboard2)
-  - [Dashboard 3](URL-to-dashboard3)
-  - [Dashboard 4](URL-to-dashboard4)
+  - [Dashboard 1](https://public.tableau.com/app/profile/prithvi.bhatt/viz/DVFinalProject-Group8/Dashboard1?publish=yes)
+  - [Dashboard 2](https://public.tableau.com/app/profile/prithvi.bhatt/viz/DVFinalProject-Group8/Dashboard2?publish=yes)
+  - [Dashboard 3](https://public.tableau.com/app/profile/prithvi.bhatt/viz/DVFinalProject-Group8/Dashboard2?publish=yes)
+  - [Dashboard 4](https://public.tableau.com/app/profile/prithvi.bhatt/viz/DVFinalProject-Group8/Dashboard4?publish=yes)
