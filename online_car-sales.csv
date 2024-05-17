@@ -1,0 +1,20 @@
+city,Ankara,,,
+,,,,
+Count of customer_id,Column Labels,,,
+Row Labels,automatic,manual,semi-automatic,Grand Total
+Arteon,,,1,1
+Beetle,5,,3,8
+Bora,56,21,,77
+EOS,,1,,1
+Golf,38,69,36,143
+Jetta,28,36,33,97
+Lupo,,1,,1
+Passat,104,50,95,249
+Passat Variant,1,2,6,9
+Phaeton,1,,,1
+Polo,66,63,25,154
+Scirocco,5,3,3,11
+Touran,1,5,,6
+Vento,1,1,,2
+VW CC,28,,8,36
+Grand Total,334,252,210,796
