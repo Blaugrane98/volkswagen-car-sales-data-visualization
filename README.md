@@ -66,12 +66,12 @@ Below are the images of the dashboards created for this project.
 
 ## User Interactivity
 I have implemented various interactive controls that aid the user in better understanding the visualizations and are connected to various visualizations as required. Below is the list of interactive controls I have implemented -
-●	**Select Car Model –** This is a dropdown list that is used to specify the model of the car wherever required.
-●	**Select Model Variant –** This is a dropdown list that is used to specify the variant of a particular car model wherever required.
-●	**Select City –** This is a dropdown list that is used to specify the city where the car was purchased wherever required.
-●	**Top-N Car Variants –** This is a slider provided for the user to specify the number of most popular variants of a particular car model that should be displayed as required.
-●	**Top-N Popular Models in Cities –** This is a slider provided for the user to specify the number of most popular car models that should be displayed as required.
-●	**User Input Amount for Cars Purchased –** This is a ‘Type-In’ input parameter created to allow the user to specify a particular number of cars purchased in a city.
+1.	**Select Car Model –** This is a dropdown list that is used to specify the model of the car wherever required.
+2.	**Select Model Variant –** This is a dropdown list that is used to specify the variant of a particular car model wherever required.
+3.	**Select City –** This is a dropdown list that is used to specify the city where the car was purchased wherever required.
+4.	**Top-N Car Variants –** This is a slider provided for the user to specify the number of most popular variants of a particular car model that should be displayed as required.
+5.	**Top-N Popular Models in Cities –** This is a slider provided for the user to specify the number of most popular car models that should be displayed as required.
+6.	**User Input Amount for Cars Purchased –** This is a ‘Type-In’ input parameter created to allow the user to specify a particular number of cars purchased in a city.
 
 ## Links
 - [Dataset](https://www.kaggle.com/datasets/bimervos/online-automotive-sales-statistics-volkswagen)
